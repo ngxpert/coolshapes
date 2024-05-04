@@ -15,7 +15,7 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:application",
+          "builder": "@ng-doc/builder:application",
           "options": {
             "outputPath": "dist/coolspahes",
             "index": "src/index.html",
@@ -26,13 +26,32 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              {
+                "glob": "**/*",
+                "input": "node_modules/@ng-doc/app/assets",
+                "output": "assets/ng-doc/app"
+              },
+              {
+                "glob": "**/*",
+                "input": "node_modules/@ng-doc/ui-kit/assets",
+                "output": "assets/ng-doc/ui-kit"
+              },
+              {
+                "glob": "**/*",
+                "input": "ng-doc/coolspahes/assets",
+                "output": "assets/ng-doc"
+              },
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+              "node_modules/@ng-doc/app/styles/global.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "@ng-doc/core"
+            ]
           },
           "configurations": {
             "production": {
@@ -59,7 +78,7 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "builder": "@angular-devkit/build-angular:dev-server",
+          "builder": "@ng-doc/builder:dev-server",
           "configurations": {
             "production": {
               "buildTarget": "coolspahes:build:production"
@@ -93,6 +112,39 @@
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        }
+      }
+    },
+    "@ngxpert/coolshapes": {
+      "projectType": "library",
+      "root": "projects/ngxpert/coolshapes",
+      "sourceRoot": "projects/ngxpert/coolshapes/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngxpert/coolshapes/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngxpert/coolshapes/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngxpert/coolshapes/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/ngxpert/coolshapes/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
           }
         }
       }

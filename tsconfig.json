@@ -2,6 +2,17 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@ng-doc/generated": [
+        "./ng-doc/coolspahes/index.ts"
+      ],
+      "@ng-doc/generated/*": [
+        "./ng-doc/coolspahes/*"
+      ],
+      "@ngxpert/coolshapes": [
+        "./dist/ngxpert/coolshapes"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
