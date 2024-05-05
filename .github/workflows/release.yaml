@@ -19,13 +19,14 @@ jobs:
       - name: Install dependencies
         env:
           HUSKY_SKIP_INSTALL: true
-          HUSKY_SKIP_HOOKS: 1
+          HUSKY_SKIP_HOOKS: true
         run: npm ci
 
       - name: NPM build, release and deploy
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          HUSKY_SKIP_HOOKS: true
         run: |
           npm run build:lib
           npm run build -- --base-href "/coolshapes/"
