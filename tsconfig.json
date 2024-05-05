@@ -3,15 +3,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "@ng-doc/generated": [
-        "./ng-doc/coolspahes/index.ts"
-      ],
-      "@ng-doc/generated/*": [
-        "./ng-doc/coolspahes/*"
-      ],
-      "@ngxpert/coolshapes": [
-        "./dist/ngxpert/coolshapes"
-      ]
+      "@ng-doc/generated": ["./ng-doc/coolspahes/index.ts"],
+      "@ng-doc/generated/*": ["./ng-doc/coolspahes/*"],
+      "@ngxpert/coolshapes": ["./dist/ngxpert/coolshapes"]
     },
     "outDir": "./dist/out-tsc",
     "strict": true,
@@ -29,10 +23,8 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "lib": ["ES2022", "dom"],
+    "baseUrl": "."
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

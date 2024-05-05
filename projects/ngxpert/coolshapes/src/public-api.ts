@@ -4,3 +4,4 @@
 
 export * from './lib/coolshape.service';
 export * from './lib/coolshape.component';
+export * from './lib/types';

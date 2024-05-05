@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "generate-shapes": "svg-to-ts-constants"
   },
   "private": true,
   "dependencies": {
@@ -38,6 +39,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^17.3.0",
+    "svg-to-ts": "^12.0.0",
     "typescript": "~5.4.2"
   }
 }

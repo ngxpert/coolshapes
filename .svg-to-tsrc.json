@@ -1,0 +1,11 @@
+{
+    "srcFiles": ["./SVG/*.svg"],
+    "outputDirectory": "./projects/ngxpert/coolshapes/src/lib/shapes/svg-to-ts",
+    "interfaceName": "CoolshapeIcon",
+    "typeName": "coolshapeIcon",
+    "fileName": "coolshape-icon.model",
+    "additionalModelOutputPath": "./projects/ngxpert/coolshapes/src/lib/shapes/svg-to-ts",
+    "compileSources": true,
+    "delimiter": "KEBAB",
+    "prefix":""
+  }

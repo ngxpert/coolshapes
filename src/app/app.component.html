@@ -1,13 +1,9 @@
 <ng-doc-root>
   <ng-doc-navbar [leftContent]="leftContent">
     <ng-template #leftContent>
-      <h3 style="margin: 0">MyAwesomeDoc</h3>
+      <h3 style="margin: 0">&#64;ngxpert/coolshapes</h3>
     </ng-template>
   </ng-doc-navbar>
   <ng-doc-sidebar></ng-doc-sidebar>
-  <router-outlet>
-    <input type="checkbox" name="noise" id="noise" [(ngModel)]="noise" />
-    <input type="number" name="size" id="size" [(ngModel)]="size" />
-    <coolshape [noise]="noise" [size]="size"></coolshape>
-  </router-outlet>
+  <router-outlet></router-outlet>
 </ng-doc-root>
