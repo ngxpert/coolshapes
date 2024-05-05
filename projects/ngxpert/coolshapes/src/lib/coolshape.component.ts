@@ -2,7 +2,6 @@ import {
   Component,
   ElementRef,
   Renderer2,
-  Signal,
   computed,
   effect,
   inject,
@@ -29,11 +28,32 @@ export class CoolshapesComponent {
   readonly defaultHeight = 200;
   readonly shapeKeys = Object.keys(shapes);
 
+  /**
+   * The category of shapes, if left empty it will randomly select a category.
+   */
   type = input<ShapeTypes>();
+
+  /**
+   * The index of shape within the shape category, it would randomly select a shape from the category if type inputs given. index starts from 0.
+   */
   index = input<number>();
+
+  /**
+   * If set true it will select a random shape
+   */
   random = input<boolean>();
+
+  /**
+   * Whether to add noise to the shape or not.
+   * Defaults to true
+   */
   noise = input<boolean>(true);
-  size = input<number>();
+
+  /**
+   * The dimension of shape
+   * Defaults to 200
+   */
+  size = input<number>(200);
 
   svg = viewChild<ElementRef<SVGElement>>('svg');
   shapeName = signal<string>('');
@@ -80,24 +100,4 @@ export class CoolshapesComponent {
       );
     });
   }
-}
-
-@Component({
-  selector: 'ellipse',
-  template: `
-    <coolshape
-      [type]="shapeType()"
-      [index]="index()"
-      [random]="random()"
-      [noise]="noise()"
-      [size]="size()"
-    ></coolshape>
-  `,
-  standalone: true,
-  imports: [CoolshapesComponent],
-})
-export class EllipseShapeComponent extends CoolshapesComponent {
-  override shapeType: Signal<ShapeTypes> = computed<ShapeTypes>(() => {
-    return 'ellipse';
-  });
 }

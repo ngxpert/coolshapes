@@ -52,8 +52,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/realvjy"><img src="https://avatars.githubusercontent.com/u/7387461?v=4?s=100" width="100px;" alt="vijay verma"/><br /><sub><b>vijay verma</b></sub></a><br /><a href="#design-realvjy" title="Design">🎨</a> <a href="#research-realvjy" title="Research">🔬</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/shhdharmen"><img src="https://avatars.githubusercontent.com/u/6831283?v=4?s=100" width="100px;" alt="Dharmen Shah"/><br /><sub><b>Dharmen Shah</b></sub></a><br /><a href="https://github.com/ngxpert/@ngxpert/coolshapes/commits?author=shhdharmen" title="Code">💻</a> <a href="#content-shhdharmen" title="Content">🖋</a> <a href="https://github.com/ngxpert/@ngxpert/coolshapes/commits?author=shhdharmen" title="Documentation">📖</a> <a href="#example-shhdharmen" title="Examples">💡</a> <a href="#ideas-shhdharmen" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-shhdharmen" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-shhdharmen" title="Maintenance">🚧</a> <a href="#platform-shhdharmen" title="Packaging/porting to new platform">📦</a> <a href="#projectManagement-shhdharmen" title="Project Management">📆</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/realvjy"><img src="https://avatars.githubusercontent.com/u/7387461?v=4?s=100" width="100px;" alt="vijay verma"/><br /><sub><b>vijay verma</b></sub></a><br /><a href="#design-realvjy" title="Design">🎨</a> <a href="#research-realvjy" title="Research">🔬</a></td>
     </tr>
   </tbody>
   <tfoot>

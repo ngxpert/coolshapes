@@ -1,0 +1,15 @@
+@keyframes banner-keyframes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+.banner-img {
+  background-image: url("/assets/banner.png");
+  height: 300px;
+  background-size: cover;
+  animation: banner-keyframes 30000ms ease-in-out alternate infinite;
+}

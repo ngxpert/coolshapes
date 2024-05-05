@@ -5,9 +5,12 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:lib": "ng build @ngxpert/coolshapes",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "generate-shapes": "svg-to-ts-constants"
+    "generate-shapes": "svg-to-ts-constants",
+    "prepare": "husky",
+    "commit": "cz"
   },
   "private": true,
   "dependencies": {
@@ -31,7 +34,15 @@
     "@angular-devkit/build-angular": "^17.3.6",
     "@angular/cli": "^17.3.6",
     "@angular/compiler-cli": "^17.3.0",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@types/jasmine": "~5.1.0",
+    "all-contributors-cli": "^6.26.1",
+    "angular-cli-ghpages": "^2.0.0-beta.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.0.11",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
@@ -39,7 +50,13 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^17.3.0",
+    "semantic-release": "^23.0.8",
     "svg-to-ts": "^12.0.0",
     "typescript": "~5.4.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

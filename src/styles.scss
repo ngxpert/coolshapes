@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --ng-doc-font-system: "Inter", sans-serif;
+  --ng-doc-font-system-mono: "JetBrains Mono", monospace;
+  --ng-doc-heading-font-family: "Poppins", sans-serif;
+  --ng-doc-font-family: var(--ng-doc-font-system);
+}

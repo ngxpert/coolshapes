@@ -1,7 +1,33 @@
 <ng-doc-root>
-  <ng-doc-navbar [leftContent]="leftContent">
+  <ng-doc-navbar [leftContent]="leftContent" [rightContent]="controls">
     <ng-template #leftContent>
-      <h3 style="margin: 0">&#64;ngxpert/coolshapes</h3>
+      <img
+        src="https://avatars.githubusercontent.com/u/160453188?s=200&v=4"
+        alt="logo"
+        height="36"
+      />
+      <h3 style="margin: 0; margin-left: 8px">&#64;ngxpert/coolshapes</h3>
+    </ng-template>
+    <ng-template #controls>
+      <a
+        ng-doc-button-icon
+        size="large"
+        href="https://github.com/ngxpert/coolshapes"
+        target="_blank"
+        ngDocTooltip="Checkout repo"
+      >
+        <ng-doc-icon customIcon="github" [size]="24"></ng-doc-icon>
+      </a>
+      <a
+        ng-doc-button-icon
+        size="large"
+        href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fngxpert.github.io%2Fcoolshapes%2F&via=shhdharmen&text=Checkout%20@ngxpert/coolshapes%2C%20it%20is%20an%20Angular%20library%20aiming%20at%20allowing%20developers%20to%20use%20cool-looking%20abstract%20shapes%20with%20little%20grainy%20gradients&hashtags=angular%2Cwebdevelopment%2Copensource"
+        target="_blank"
+        ngDocTooltip="Share online"
+      >
+        <ng-doc-icon customIcon="twitter" [size]="24"></ng-doc-icon>
+      </a>
+      <ng-doc-theme-toggle></ng-doc-theme-toggle>
     </ng-template>
   </ng-doc-navbar>
   <ng-doc-sidebar></ng-doc-sidebar>
