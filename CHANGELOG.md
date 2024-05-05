@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ngxpert/coolshapes/compare/v1.0.0...v1.1.0) (2024-05-05)
+
+
+### Features
+
+* trigger release ([1f3931d](https://github.com/ngxpert/coolshapes/commit/1f3931de75d31b17982df9c93ff7391d8cbd39a2))
+
 # 1.0.0 (2024-05-05)
 
 
