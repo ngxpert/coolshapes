@@ -6,7 +6,7 @@ import {
 } from '@ng-doc/app';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NgDocButtonIconComponent, NgDocIconComponent, NgDocTooltipDirective } from '@ng-doc/ui-kit';
+import { NgDocButtonComponent, NgDocButtonIconComponent, NgDocIconComponent, NgDocTooltipDirective } from '@ng-doc/ui-kit';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +19,8 @@ import { NgDocButtonIconComponent, NgDocIconComponent, NgDocTooltipDirective } f
     NgDocIconComponent,
     NgDocButtonIconComponent,
     NgDocTooltipDirective,
-    NgDocThemeToggleComponent
+    NgDocThemeToggleComponent,
+    NgDocButtonComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

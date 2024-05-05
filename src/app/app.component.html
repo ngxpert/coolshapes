@@ -1,12 +1,16 @@
 <ng-doc-root>
   <ng-doc-navbar [leftContent]="leftContent" [rightContent]="controls">
     <ng-template #leftContent>
-      <img
-        src="https://avatars.githubusercontent.com/u/160453188?s=200&v=4"
-        alt="logo"
-        height="36"
-      />
-      <h3 style="margin: 0; margin-left: 8px">&#64;ngxpert/coolshapes</h3>
+      <a href="/" class="brand">
+        <img
+          src="https://avatars.githubusercontent.com/u/160453188?s=200&v=4"
+          alt="logo"
+        />
+        <div>
+          <h3 class="brand-title-ngxpert">&#64;ngxpert/</h3>
+          <h3 class="brand-title-coolshapes">coolshapes</h3>
+        </div>
+      </a>
     </ng-template>
     <ng-template #controls>
       <a

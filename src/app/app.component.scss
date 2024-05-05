@@ -1,0 +1,23 @@
+.brand {
+  text-decoration: none;
+  color: var(--ng-doc-text);
+  display: flex;
+  align-items: center;
+  h3 {
+    margin: 0;
+    font-size: 22px;
+  }
+  img {
+    height: 36px;
+    margin-right: var(--ng-doc-base-gutter);
+  }
+  .brand-title-ngxpert {
+    font-family: var(--ng-doc-font-family);
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .brand-title-coolshapes {
+    font-family: var(--ng-doc-heading-font-family);
+    font-weight: 900;
+  }
+}
