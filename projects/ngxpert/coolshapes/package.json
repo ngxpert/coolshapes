@@ -11,5 +11,18 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "keywords": [
+    "angular",
+    "angular 2",
+    "coolshapes",
+    "shapes",
+    "ng shapes",
+    "ngxpert",
+    "@ngxpert/coolshapes"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }

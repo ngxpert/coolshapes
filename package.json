@@ -1,6 +1,13 @@
 {
   "name": "coolshapes",
   "version": "0.0.0",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngxpert/coolshapes.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -14,7 +21,6 @@
     "build:lib": "ng build @ngxpert/coolshapes --configuration production && npm run copy:readme",
     "semantic-release": "semantic-release"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^17.3.0",
     "@angular/common": "^17.3.0",
