@@ -3,8 +3,8 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "@ng-doc/generated": ["./ng-doc/coolspahes/index.ts"],
-      "@ng-doc/generated/*": ["./ng-doc/coolspahes/*"],
+      "@ng-doc/generated": ["./ng-doc/coolshapes/index.ts"],
+      "@ng-doc/generated/*": ["./ng-doc/coolshapes/*"],
       "@ngxpert/coolshapes": ["./dist/ngxpert/coolshapes"]
     },
     "outDir": "./dist/out-tsc",

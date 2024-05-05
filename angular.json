@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "coolspahes": {
+    "coolshapes": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@ng-doc/builder:application",
           "options": {
-            "outputPath": "dist/coolspahes",
+            "outputPath": "dist/coolshapes",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -38,7 +38,7 @@
               },
               {
                 "glob": "**/*",
-                "input": "ng-doc/coolspahes/assets",
+                "input": "ng-doc/coolshapes/assets",
                 "output": "assets/ng-doc"
               },
               "src/favicon.ico",
@@ -81,10 +81,10 @@
           "builder": "@ng-doc/builder:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "coolspahes:build:production"
+              "buildTarget": "coolshapes:build:production"
             },
             "development": {
-              "buildTarget": "coolspahes:build:development"
+              "buildTarget": "coolshapes:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -92,7 +92,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "coolspahes:build"
+            "buildTarget": "coolshapes:build"
           }
         },
         "test": {

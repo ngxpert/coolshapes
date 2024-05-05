@@ -19,7 +19,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'coolspahes';
+  title = 'coolshapes';
   noise = true;
   size = 30;
 }
