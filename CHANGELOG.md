@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/ngxpert/coolshapes/compare/v1.1.0...v1.2.0) (2024-05-05)
+
+
+### Bug Fixes
+
+* add cpx ([ff894b0](https://github.com/ngxpert/coolshapes/commit/ff894b0fe3cc757ef6fbbb200404ea2593bc1891))
+
+
+### Features
+
+* changes to publish package ([3adb2a9](https://github.com/ngxpert/coolshapes/commit/3adb2a9aabd514daf645b0e6c7d2e2bee5e025bd))
+
 # [1.1.0](https://github.com/ngxpert/coolshapes/compare/v1.0.0...v1.1.0) (2024-05-05)
 
 
