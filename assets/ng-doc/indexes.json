@@ -463,6 +463,28 @@
   },
   {
     "breadcrumbs": [
+      "Author"
+    ],
+    "pageType": "guide",
+    "title": "Author",
+    "section": "Meet library author",
+    "route": "/author",
+    "fragment": "meet-library-author",
+    "content": "Hello 👋, I am Dharmen Shah. And I am the author of this library @ngxpert/coolshapes."
+  },
+  {
+    "breadcrumbs": [
+      "Author"
+    ],
+    "pageType": "guide",
+    "title": "Author",
+    "section": "Social",
+    "route": "/author",
+    "fragment": "social",
+    "content": "Follow me on X (Twitter), Medium, Dev.to, LinkedIn, and Peerlist!"
+  },
+  {
+    "breadcrumbs": [
       "Credits"
     ],
     "pageType": "guide",
@@ -482,17 +504,6 @@
     "route": "/credits",
     "fragment": "documentation",
     "content": "This awesome documentation is generated thanks for ng-doc;"
-  },
-  {
-    "breadcrumbs": [
-      "Social"
-    ],
-    "pageType": "guide",
-    "title": "Social",
-    "section": "Social",
-    "route": "/social",
-    "fragment": "social",
-    "content": "Follow me on X (Twitter), Medium, Dev.to, LinkedIn, and Peerlist!"
   },
   {
     "breadcrumbs": [
