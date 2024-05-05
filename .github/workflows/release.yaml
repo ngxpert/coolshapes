@@ -28,5 +28,5 @@ jobs:
         run: |
           npm run build:lib
           npm run build -- --base-href "/coolshapes/"
-          npx semantic-release
+          npx semantic-release --no-verify
           npx angular-cli-ghpages --no-silent --name="mr. Dharmen's Bot" --email=shhdharmen@gmail.com --dir=dist/coolshapes/browser
