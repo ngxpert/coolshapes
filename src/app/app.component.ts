@@ -5,7 +5,7 @@ import {
   NgDocThemeToggleComponent,
 } from '@ng-doc/app';
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { NgDocButtonComponent, NgDocButtonIconComponent, NgDocIconComponent, NgDocTooltipDirective } from '@ng-doc/ui-kit';
 
 @Component({
@@ -20,7 +20,8 @@ import { NgDocButtonComponent, NgDocButtonIconComponent, NgDocIconComponent, NgD
     NgDocButtonIconComponent,
     NgDocTooltipDirective,
     NgDocThemeToggleComponent,
-    NgDocButtonComponent
+    NgDocButtonComponent,
+    RouterLink
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
