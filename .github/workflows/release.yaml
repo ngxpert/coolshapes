@@ -19,6 +19,7 @@ jobs:
       - name: Install dependencies
         env:
           HUSKY_SKIP_INSTALL: true
+          HUSKY_SKIP_HOOKS: 1
         run: npm ci
 
       - name: NPM build, release and deploy

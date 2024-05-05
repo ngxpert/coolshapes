@@ -22,6 +22,7 @@ jobs:
         if: steps.npm-cache.outputs.cache-hit != 'true'
         env:
           HUSKY_SKIP_INSTALL: true
+          HUSKY_SKIP_HOOKS: 1
         run: npm ci
 
       - name: Lint, build, test and release
