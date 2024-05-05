@@ -5,12 +5,14 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:lib": "ng build @ngxpert/coolshapes",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "generate-shapes": "svg-to-ts-constants",
     "prepare": "husky",
-    "commit": "cz"
+    "commit": "cz",
+    "copy:readme": "cpx README.md dist/ngxpert/coolshapes",
+    "build:lib": "ng build @ngxpert/coolshapes --configuration production && npm run copy:readme",
+    "semantic-release": "semantic-release"
   },
   "private": true,
   "dependencies": {
