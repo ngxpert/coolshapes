@@ -1,27 +1,74 @@
-# coolshapes
+# @ngxpert/coolshapes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+[![npm](https://img.shields.io/npm/v/@ngxpert/avvvatars?style=flat-square)](https://www.npmjs.com/package/@ngxpert/coolshapes)
+[![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg?style=flat-square)](https://github.com/ngxpert/coolshapes/blob/master/LICENSE)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## Development server
+> @ngxpert/coolshapes is an Angular library aiming at allowing developers to use cool-looking abstract shapes with little grainy gradients from [coolshapes](https://coolshap.es/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Installation
 
-## Code scaffolding
+Install in your project using `npm`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm install @ngxpert/coolshapes
+```
 
-## Build
+or `yarn`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+yarn add @ngxpert/coolshapes
+```
 
-## Running unit tests
+## Usage
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Then simply start using `coolshape` component in your code:
 
-## Running end-to-end tests
+```ts
+@Component({
+  selector: 'usage',
+  templateUrl: 'usage.component.html',
+  imports: [CoolshapesComponent],
+  standalone: true,
+})
+export class UsageComponent {}
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```html
+<coolshape></coolshape>
+```
 
-## Further help
+## [Demo and Docs](https://ngxpert.github.io/coolshapes)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/realvjy"><img src="https://avatars.githubusercontent.com/u/7387461?v=4?s=100" width="100px;" alt="vijay verma"/><br /><sub><b>vijay verma</b></sub></a><br /><a href="#design-realvjy" title="Design">🎨</a> <a href="#research-realvjy" title="Research">🔬</a></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td align="center" size="13px" colspan="7">
+        <img src="https://raw.githubusercontent.com/all-contributors/all-contributors-cli/1b8533af435da9854653492b1327a23a4dbd0a10/assets/logo-small.svg">
+          <a href="https://all-contributors.js.org/docs/en/bot/usage">Add your contributions</a>
+        </img>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
