@@ -1,5 +1,7 @@
 # @ngxpert/coolshapes
 
+![banner-for-readme](https://github.com/ngxpert/coolshapes/assets/6831283/0a46ec53-eeb9-451b-9f70-ba95bbbdbebb)
+
 [![npm](https://img.shields.io/npm/v/@ngxpert/avvvatars?style=flat-square)](https://www.npmjs.com/package/@ngxpert/coolshapes)
 [![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg?style=flat-square)](https://github.com/ngxpert/coolshapes/blob/master/LICENSE)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
