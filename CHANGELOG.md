@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/ngxpert/coolshapes/compare/v1.2.0...v1.2.1) (2024-05-05)
+
+
+### Bug Fixes
+
+* for npm publish ([1e2f549](https://github.com/ngxpert/coolshapes/commit/1e2f5499b3b8055aab54d8aaa55a021874682feb))
+
 # [1.2.0](https://github.com/ngxpert/coolshapes/compare/v1.1.0...v1.2.0) (2024-05-05)
 
 
