@@ -1,0 +1,36 @@
+:host {
+  display: flex;
+  margin: 0;
+  color: var(--ng-doc-text);
+
+  &[data-ng-doc-level="1"] a {
+    padding-left: var(--ng-doc-base-gutter);
+  }
+
+  &[data-ng-doc-selected="true"] {
+    color: var(--ng-doc-primary);
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    color: var(--ng-doc-primary);
+  }
+
+  a {
+    // @include ng-doc-font();
+    font-family: var(--ng-doc-font-family);
+    font-variant: no-contextual;
+    color: var(--ng-doc-text);
+    line-height: var(--ng-doc-line-height);
+    font-size: var(--ng-doc-font-size);
+    font-weight: var(--ng-doc-font-weight);
+    padding: calc(var(--ng-doc-base-gutter) / 2);
+    color: inherit;
+    width: 100%;
+    text-decoration: none;
+    word-break: break-word;
+
+    --ng-doc-font-size: 14px;
+  }
+}

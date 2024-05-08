@@ -51,7 +51,8 @@
             "scripts": [],
             "allowedCommonJsDependencies": [
               "@ng-doc/core"
-            ]
+            ],
+            "baseHref": "/coolshapes/"
           },
           "configurations": {
             "production": {

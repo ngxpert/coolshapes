@@ -1,0 +1,7 @@
+<a
+  [routerLink]="href.split('#')[0]"
+  [fragment]="href.split('#')[1]"
+  [style.padding-left]="'calc(var(--ng-doc-toc-indent) * ' + level + ')'"
+>
+  <ng-content></ng-content>
+</a>
