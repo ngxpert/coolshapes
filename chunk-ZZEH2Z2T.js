@@ -1,1 +1,0 @@
-import"./chunk-P2VZOJAX.js";var t=[{path:"",redirectTo:"category",pathMatch:"full"},{path:"",title:"Examples",children:[{path:"category",loadChildren:()=>import("./chunk-SKKA2BER.js")},{path:"global",loadChildren:()=>import("./chunk-3ISW5VCB.js")}]}],a=t;export{a as default};

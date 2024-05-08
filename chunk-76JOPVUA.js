@@ -1,0 +1,1 @@
+import"./chunk-P2VZOJAX.js";var t=[{path:"",redirectTo:"installation",pathMatch:"full"},{path:"",title:"Getting Started",children:[{path:"installation",loadChildren:()=>import("./chunk-S23IDM6A.js")},{path:"what-is-coolshapes",loadChildren:()=>import("./chunk-N4V7MWYT.js")}]}],a=t;export{a as default};
