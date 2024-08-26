@@ -1,6 +1,6 @@
 import { NgDocPage } from '@ng-doc/core';
 import ExamplesCategory from '../../ng-doc.category';
-import { CoolshapesComponent } from 'projects/ngxpert/coolshapes/src/public-api';
+import { CoolshapesComponent } from '../../../../../../projects/ngxpert/coolshapes/src/public-api';
 
 const GlobalPage: NgDocPage = {
   title: `Global`,

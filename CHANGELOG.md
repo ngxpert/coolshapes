@@ -1,3 +1,16 @@
+# [2.0.0-beta.1](https://github.com/ngxpert/coolshapes/compare/v1.2.1...v2.0.0-beta.1) (2024-08-26)
+
+
+### Features
+
+* update angular to 18 ([2b2505b](https://github.com/ngxpert/coolshapes/commit/2b2505b3c6f43564bb4733e414665a9bb251f298))
+* update ng to 18 ([0868b83](https://github.com/ngxpert/coolshapes/commit/0868b83717d752412ca2b05f92ecbf4b7acf4163))
+
+
+### BREAKING CHANGES
+
+* update ng to 18
+
 ## [1.2.1](https://github.com/ngxpert/coolshapes/compare/v1.2.0...v1.2.1) (2024-05-05)
 
 

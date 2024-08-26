@@ -1,4 +1,6 @@
-# {{ NgDocPage.title }}
+---
+keyword: CategoryPage
+---
 
 You can import the component for specific category - `star`,`ellipse`... etc.
 

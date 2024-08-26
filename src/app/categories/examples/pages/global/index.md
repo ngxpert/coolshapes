@@ -1,4 +1,6 @@
-# {{ NgDocPage.title }}
+---
+keyword: GlobalPage
+---
 
 Just import the Global component `coolshape` and it will work.
 
