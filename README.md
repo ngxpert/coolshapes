@@ -15,13 +15,21 @@
 Install in your project using `npm`
 
 ```bash
+# Angular 18+
 npm install @ngxpert/coolshapes
+
+# Angular 17
+npm install @ngxpert/coolshapes@1
 ```
 
 or `yarn`
 
 ```bash
+# Angular 18+
 yarn add @ngxpert/coolshapes
+
+# Angular 17
+yarn add @ngxpert/coolshapes@1
 ```
 
 ## Usage
