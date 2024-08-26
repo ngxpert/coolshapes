@@ -21,7 +21,7 @@ import { NgDocButtonComponent, NgDocButtonIconComponent, NgDocIconComponent, NgD
     NgDocTooltipDirective,
     NgDocThemeToggleComponent,
     NgDocButtonComponent,
-    RouterLink
+    RouterLink,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

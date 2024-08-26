@@ -1,4 +1,6 @@
-# {{ NgDocPage.title }}
+---
+keyword: InstallationPage
+---
 
 Install in your project using `npm`
 

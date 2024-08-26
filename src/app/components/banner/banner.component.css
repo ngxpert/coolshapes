@@ -8,7 +8,7 @@
 }
 
 .banner-img {
-  background-image: url("https://github.com/ngxpert/coolshapes/blob/main/src/assets/banner.png?raw=true");
+  background-image: url("/banner.png");
   height: 300px;
   background-size: cover;
   animation: banner-keyframes 30000ms ease-in-out alternate infinite;

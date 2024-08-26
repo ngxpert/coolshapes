@@ -1,4 +1,6 @@
-# What is Coolshapes?
+---
+keyword: WhatIsCoolshapesPage
+---
 
 {{ NgDocActions.demo("BannerComponent", {container: false}) }}
 
