@@ -1,5 +1,5 @@
 import {NgDocPage} from '@ng-doc/core';
-import { AuthorComponent } from 'src/app/components/author/author';
+import { AuthorComponent } from '../../components/author/author';
 
 const AuthorPage: NgDocPage = {
 	title: `Author`,

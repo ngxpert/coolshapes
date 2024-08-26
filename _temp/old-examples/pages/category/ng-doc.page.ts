@@ -10,7 +10,7 @@ import {
   RectangleShapeComponent,
   TriangleShapeComponent,
   WheelShapeComponent,
-} from '../../../../../../projects/ngxpert/coolshapes/src/public-api';
+} from '@ngxpert/coolshapes';
 
 const CategoryPage: NgDocPage = {
   title: `Category`,

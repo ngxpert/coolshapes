@@ -1,6 +1,4 @@
----
-keyword: InstallationPage
----
+
 
 Install in your project using `npm`
 

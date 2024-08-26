@@ -12,9 +12,6 @@ import { Component, OnInit } from '@angular/core';
       width: 150px;
     }
   `,
+  standalone: true
 })
-export class AuthorComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit() {}
-}
+export class AuthorComponent {}

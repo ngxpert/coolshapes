@@ -6,8 +6,8 @@ const WhatIsCoolshapesPage: NgDocPage = {
 	title: `What is Coolshapes`,
 	mdFile: './index.md',
 	category: GettingStartedCategory,
-	demos: { BannerComponent },
-	order: 1
+	order: 1,
+	demos: { BannerComponent }
 };
 
 export default WhatIsCoolshapesPage;
