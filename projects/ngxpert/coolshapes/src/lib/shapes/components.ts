@@ -8,7 +8,7 @@ class BaseCategoryShapeComponent {
   /**
    * The index of shape within the shape category, it would randomly select a shape from the category if type inputs given. index starts from 0.
    */
-  index = input<number>();
+  index = input<number>(0);
 
   /**
    * If set true it will select a random shape
