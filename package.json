@@ -35,7 +35,7 @@
     "@ng-doc/core": "18.0.1",
     "@ng-doc/ui-kit": "18.0.1",
     "rxjs": "~7.8.0",
-    "tslib": "^2.3.0",
+    "tslib": "^2.8.1",
     "zone.js": "~0.14.10"
   },
   "devDependencies": {
