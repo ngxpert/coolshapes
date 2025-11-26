@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/ngxpert/coolshapes/compare/v2.1.1...v3.0.0) (2025-11-26)
+
+
+### Features
+
+* update angular to 19 ([a873f6e](https://github.com/ngxpert/coolshapes/commit/a873f6e64f235b888e23ec866b5726eb4fa8ab29))
+
+
+### BREAKING CHANGES
+
+* update angular to 19
+
 ## [2.1.1](https://github.com/ngxpert/coolshapes/compare/v2.1.0...v2.1.1) (2025-11-26)
 
 
