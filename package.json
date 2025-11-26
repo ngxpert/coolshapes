@@ -22,7 +22,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@angular/animations": "^20.3.14",
+    "@angular/animations": "^21.0.1",
     "@angular/common": "^20.3.14",
     "@angular/compiler": "^20.3.14",
     "@angular/core": "^20.3.14",
