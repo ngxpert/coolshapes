@@ -12,7 +12,7 @@
 
 ## Installation
 
-Install in your project using `npm`
+Install in your project using `npm`:
 
 ```bash
 # Angular 18+
