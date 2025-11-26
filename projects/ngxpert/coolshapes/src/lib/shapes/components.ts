@@ -2,8 +2,7 @@ import { Component, input } from '@angular/core';
 import { CoolshapesComponent } from '../coolshape.component';
 
 @Component({
-    template: '',
-    standalone: false
+  template: '',
 })
 class BaseCategoryShapeComponent {
   /**
@@ -30,8 +29,8 @@ class BaseCategoryShapeComponent {
 }
 
 @Component({
-    selector: 'number',
-    template: `
+  selector: 'number',
+  template: `
     <coolshape
       type="number"
       [index]="index()"
@@ -40,13 +39,14 @@ class BaseCategoryShapeComponent {
       [size]="size()"
     ></coolshape>
   `,
-    imports: [CoolshapesComponent]
+  standalone: true,
+  imports: [CoolshapesComponent],
 })
 export class NumberShapeComponent extends BaseCategoryShapeComponent {}
 
 @Component({
-    selector: 'star',
-    template: `
+  selector: 'star',
+  template: `
     <coolshape
       type="star"
       [index]="index()"
@@ -55,13 +55,14 @@ export class NumberShapeComponent extends BaseCategoryShapeComponent {}
       [size]="size()"
     ></coolshape>
   `,
-    imports: [CoolshapesComponent]
+  standalone: true,
+  imports: [CoolshapesComponent],
 })
 export class StarShapeComponent extends BaseCategoryShapeComponent {}
 
 @Component({
-    selector: 'flower',
-    template: `
+  selector: 'flower',
+  template: `
     <coolshape
       type="flower"
       [index]="index()"
@@ -70,13 +71,14 @@ export class StarShapeComponent extends BaseCategoryShapeComponent {}
       [size]="size()"
     ></coolshape>
   `,
-    imports: [CoolshapesComponent]
+  standalone: true,
+  imports: [CoolshapesComponent],
 })
 export class FlowerShapeComponent extends BaseCategoryShapeComponent {}
 
 @Component({
-    selector: 'ellipse',
-    template: `
+  selector: 'ellipse',
+  template: `
     <coolshape
       type="ellipse"
       [index]="index()"
@@ -85,13 +87,14 @@ export class FlowerShapeComponent extends BaseCategoryShapeComponent {}
       [size]="size()"
     ></coolshape>
   `,
-    imports: [CoolshapesComponent]
+  standalone: true,
+  imports: [CoolshapesComponent],
 })
 export class EllipseShapeComponent extends BaseCategoryShapeComponent {}
 
 @Component({
-    selector: 'wheel',
-    template: `
+  selector: 'wheel',
+  template: `
     <coolshape
       type="wheel"
       [index]="index()"
@@ -100,12 +103,13 @@ export class EllipseShapeComponent extends BaseCategoryShapeComponent {}
       [size]="size()"
     ></coolshape>
   `,
-    imports: [CoolshapesComponent]
+  standalone: true,
+  imports: [CoolshapesComponent],
 })
 export class WheelShapeComponent extends BaseCategoryShapeComponent {}
 @Component({
-    selector: 'moon',
-    template: `
+  selector: 'moon',
+  template: `
     <coolshape
       type="moon"
       [index]="index()"
@@ -114,12 +118,13 @@ export class WheelShapeComponent extends BaseCategoryShapeComponent {}
       [size]="size()"
     ></coolshape>
   `,
-    imports: [CoolshapesComponent]
+  standalone: true,
+  imports: [CoolshapesComponent],
 })
 export class MoonShapeComponent extends BaseCategoryShapeComponent {}
 @Component({
-    selector: 'misc',
-    template: `
+  selector: 'misc',
+  template: `
     <coolshape
       type="misc"
       [index]="index()"
@@ -128,12 +133,13 @@ export class MoonShapeComponent extends BaseCategoryShapeComponent {}
       [size]="size()"
     ></coolshape>
   `,
-    imports: [CoolshapesComponent]
+  standalone: true,
+  imports: [CoolshapesComponent],
 })
 export class MiscShapeComponent extends BaseCategoryShapeComponent {}
 @Component({
-    selector: 'triangle',
-    template: `
+  selector: 'triangle',
+  template: `
     <coolshape
       type="triangle"
       [index]="index()"
@@ -142,13 +148,14 @@ export class MiscShapeComponent extends BaseCategoryShapeComponent {}
       [size]="size()"
     ></coolshape>
   `,
-    imports: [CoolshapesComponent]
+  standalone: true,
+  imports: [CoolshapesComponent],
 })
 export class TriangleShapeComponent extends BaseCategoryShapeComponent {}
 
 @Component({
-    selector: 'polygon',
-    template: `
+  selector: 'polygon',
+  template: `
     <coolshape
       type="polygon"
       [index]="index()"
@@ -157,13 +164,14 @@ export class TriangleShapeComponent extends BaseCategoryShapeComponent {}
       [size]="size()"
     ></coolshape>
   `,
-    imports: [CoolshapesComponent]
+  standalone: true,
+  imports: [CoolshapesComponent],
 })
 export class PolygonShapeComponent extends BaseCategoryShapeComponent {}
 
 @Component({
-    selector: 'rectangle',
-    template: `
+  selector: 'rectangle',
+  template: `
     <coolshape
       type="rectangle"
       [index]="index()"
@@ -172,6 +180,7 @@ export class PolygonShapeComponent extends BaseCategoryShapeComponent {}
       [size]="size()"
     ></coolshape>
   `,
-    imports: [CoolshapesComponent]
+  standalone: true,
+  imports: [CoolshapesComponent],
 })
 export class RectangleShapeComponent extends BaseCategoryShapeComponent {}
