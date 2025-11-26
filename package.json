@@ -30,7 +30,7 @@
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
-    "@ng-doc/app": "18.0.1",
+    "@ng-doc/app": "20.1.0",
     "@ng-doc/builder": "18.0.1",
     "@ng-doc/core": "18.0.1",
     "@ng-doc/ui-kit": "18.0.1",
