@@ -1,3 +1,11 @@
+# [2.1.0](https://github.com/ngxpert/coolshapes/compare/v2.0.1...v2.1.0) (2025-11-26)
+
+
+### Features
+
+* update angular to 19 ([5a529cd](https://github.com/ngxpert/coolshapes/commit/5a529cdda0bad4e88d93d3cbca26c2a3c5dd0b0c))
+* update peer deps in library ([27c8e29](https://github.com/ngxpert/coolshapes/commit/27c8e29d45a06ddae7f1824746358be08de7347f))
+
 ## [2.0.1](https://github.com/ngxpert/coolshapes/compare/v2.0.0...v2.0.1) (2025-11-26)
 
 
