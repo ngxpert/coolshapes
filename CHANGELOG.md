@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/ngxpert/coolshapes/compare/v2.1.0...v2.1.1) (2025-11-26)
+
+
+### Bug Fixes
+
+* manual release for angular v18 ([3c6f6d3](https://github.com/ngxpert/coolshapes/commit/3c6f6d32629f6eadd3e9eaf80cbb826924325c4e))
+
 # [2.1.0](https://github.com/ngxpert/coolshapes/compare/v2.0.1...v2.1.0) (2025-11-26)
 
 
