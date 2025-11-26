@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/ngxpert/coolshapes/compare/v2.0.0...v2.0.1) (2025-11-26)
+
+
+### Bug Fixes
+
+* update peerDependencies for Angular to specify version range ([8a2ef3d](https://github.com/ngxpert/coolshapes/commit/8a2ef3d5db0695d298f2d880c4e9222ad13aa9cb))
+
 # [2.0.0](https://github.com/ngxpert/coolshapes/compare/v1.2.1...v2.0.0) (2024-08-26)
 
 
