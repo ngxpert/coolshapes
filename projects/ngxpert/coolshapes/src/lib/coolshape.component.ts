@@ -15,13 +15,12 @@ import { noise } from './noise';
 import { ShapeTypes } from './types';
 
 @Component({
-  selector: 'coolshape',
-  standalone: true,
-  templateUrl: './coolshape.component.html',
-  host: {
-    role: 'img',
-  },
-  imports: [NgClass],
+    selector: 'coolshape',
+    templateUrl: './coolshape.component.html',
+    host: {
+        role: 'img',
+    },
+    imports: [NgClass]
 })
 export class CoolshapesComponent {
   readonly defaultWidth = 200;

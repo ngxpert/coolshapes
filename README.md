@@ -15,8 +15,11 @@
 Install in your project using `npm`:
 
 ```bash
-# Angular 18+
+# Angular 19+
 npm install @ngxpert/coolshapes
+
+# Angular 18+
+npm install @ngxpert/coolshapes@2
 
 # Angular 17
 npm install @ngxpert/coolshapes@1
@@ -25,8 +28,11 @@ npm install @ngxpert/coolshapes@1
 or `yarn`
 
 ```bash
-# Angular 18+
+# Angular 19+
 yarn add @ngxpert/coolshapes
+
+# Angular 18+
+yarn add @ngxpert/coolshapes@2
 
 # Angular 17
 yarn add @ngxpert/coolshapes@1
